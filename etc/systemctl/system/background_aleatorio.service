@@ -1,0 +1,13 @@
+[Unit]
+Description=Ejecutar script de fondos aleatorios
+After=display-manager.service
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+User=merkaba
+ExecStart=/usr/bin/python3 /home/merkaba/imagenes_background.pyw
+Restart=always
+
+[Install]
+WantedBy=default.target
