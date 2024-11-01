@@ -9,3 +9,10 @@ Este es para que solucionar el error del pip install:
 Estos comandos es para instalar los emojis en manjaro en brave
 - sudo pacman -S noto-fonts-emoji
 - fc-cache -f -v
+
+Esto es para la cofiguracion de las teclas de mi nuevo tecladoV
+  setxkbmap -layout us
+  503     xmodmap -e "keycode 78 = Delete" 
+  504     xmodmap -e "keycode 118 = Home" 
+  505     xmodmap -e "keycode 119 = End" 
+
