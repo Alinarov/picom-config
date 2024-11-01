@@ -11,8 +11,9 @@ Estos comandos es para instalar los emojis en manjaro en brave
 - fc-cache -f -v
 
 Esto es para la cofiguracion de las teclas de mi nuevo tecladoV
-  setxkbmap -layout us
-  503     xmodmap -e "keycode 78 = Delete" 
-  504     xmodmap -e "keycode 118 = Home" 
-  505     xmodmap -e "keycode 119 = End" 
+setxkbmap -layout es
+xmodmap -e "keycode 78 = Delete" 
+xmodmap -e "keycode 118 = Home" 
+xmodmap -e "keycode 119 = End" 
+  
 
