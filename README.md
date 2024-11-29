@@ -1,5 +1,4 @@
 configuracion de picom en manjaro i3. 
-
 para poner los bordes redondeados con picom.
 -  corner-radius = 3
 
@@ -16,4 +15,5 @@ Esto es para la cofiguracion de las teclas de mi nuevo tecladoV
 - xmodmap -e "keycode 118 = Home" 
 - xmodmap -e "keycode 119 = End" 
   
+ ~ > xrandr --output LVDS --brightness 1.5
 
