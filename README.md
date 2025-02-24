@@ -17,3 +17,9 @@ Esto es para la cofiguracion de las teclas de mi nuevo tecladoV
   
  ~ > xrandr --output LVDS --brightness 1.5
 
+
+-- Aqui es para activar el puerto vga y hdmi
+xrandr --output VGA-0 --auto 
+xrandr --output HDMI-0 --auto 
+
+
