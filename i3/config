@@ -31,7 +31,8 @@ floating_modifier $mod
 bindsym $mod+Return exec konsole
 
 # kill focused window
-bindsym $mod+Shift+q kill ;  exec --no-startup-id python ~/imagenes_background.pyw
+bindsym $mod+Shift+q kill 
+#;  exec --no-startup-id python ~/imagenes_background.pyw
 
 # start program launcher
 bindsym $mod+d exec --no-startup-id dmenu_recency
@@ -441,4 +442,6 @@ new_float pixel 3
 
 # bindsym Mod4+Shift+q exec --no-startup-id python ~/imagenes_background.pyw
 
-#bindsym $mod+Shift+q exec --no-startup-id python ~/imagenes_background.pyw
+# exec --no-startup-id python ~/imagenes_background.pyw
+
+exec --no-startup-id mpv --no-video /home/merkaba/.config/efectos/xp-startup.mp3
