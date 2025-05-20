@@ -1,4 +1,5 @@
- DBrain > git pull origin main --rebase
+ DBrain > git pull origin main 
+ --rebase
 remote: Enumerating objects: 4, done.
 remote: Counting objects: 100% (4/4), done.
 remote: Compressing objects: 100% (3/3), done.
